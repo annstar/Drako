@@ -6,9 +6,9 @@ apply from: "gradleScripts/eclipseLauncher.gradle"
 /***************************************************************************************
  * Make sure the correct version of gradle is being used
  ***************************************************************************************/
-if (gradle.gradleVersion != "5.0") {
-	throw new GradleException("Requires Gradle 5.0, but was run with $gradle.gradleVersion")
-}
+//if (gradle.gradleVersion != "5.0") {
+//  throw new GradleException("Requires Gradle 5.0, but was run with $gradle.gradleVersion")
+//}
 
 /***************************************************************************************
  * Define the location of JAVA_HOME
@@ -72,7 +72,7 @@ project.ext.set("OS_NAMES", ["osx64", "win32", "win64", "linux64"])
  *		here for the time being for those who need it.
  *********************************************************************************/
 
-apply from: "gradleScripts/ip.gradle"						// adds tasks for building ip notices
+//apply from: "gradleScripts/ip.gradle"						// adds tasks for building ip notices
 apply from: 'gradleScripts/distribution.gradle'				// adds zip tasks
 //apply from: 'gradleScripts/diagnostics/findbugs.gradle'		// adds findbugs tasks
 apply from: 'gradleScripts/usage.gradle'						// adds task documentation

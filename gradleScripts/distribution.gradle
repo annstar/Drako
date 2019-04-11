@@ -188,7 +188,7 @@ task assembleCommon (type: Copy) {
 	group 'private'
 	description "Copies the common files/folders to the distribution location."
 	destinationDir file(DISTRIBUTION_DIR.getPath() + "/" +  ZIP_DIR_PREFIX)
-	dependsOn {subprojects.ip} 
+	//dependsOn {subprojects.ip} 
 	dependsOn {subprojects.assemble}
 
 
