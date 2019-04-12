@@ -1,3 +1,15 @@
+buildscript {
+	repositories {
+		mavenCentral()
+	}    
+	
+	dependencies {
+		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.21"
+	}
+}
+plugins {
+	id "org.jetbrains.kotlin.jvm"
+}
 apply plugin: 'eclipse'
 eclipse.project.name = 'Features Base'
 
@@ -15,7 +27,22 @@ configurations {
 	javacc
 }
 
+ext.kotlin_version = '1.3.21'
+
 dependencies {
+	implementation "org.jetbrains.kotlin:kotlin-stdlib"
+	compile "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+	compile "org.jetbrains.kotlin:kotlin-script-runtime:$kotlin_version"
+	compile "org.jetbrains.kotlin:kotlin-script-util:$kotlin_version"
+	compile "org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-compiler-client-embeddable:$kotlin_version"
+	compile "net.sf.trove4j:trove4j:3.0.3"
+	implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+	implementation "org.jetbrains.kotlin:kotlin-script-util:$kotlin_version"
+	implementation "org.jetbrains.kotlin:kotlin-script-runtime:$kotlin_version"
+	implementation "org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlin_version"
+	implementation "org.jetbrains.kotlin:kotlin-compiler-client-embeddable:$kotlin_version"
+	implementation "net.sf.trove4j:trove4j:3.0.3"
 	compile project(':Utility')
 	compile project(':Generic')
 	compile project(':Docking')

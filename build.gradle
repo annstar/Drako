@@ -1,6 +1,23 @@
+buildscript {
+	ext.kotlin_version = '1.3.21'
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+	}	
+}
+
+apply plugin: 'kotlin'
 apply plugin: 'eclipse'
+
 apply from: 'gradleScripts/eclipseFilters.gradle'
 apply from: "gradleScripts/eclipseLauncher.gradle"
+
+dependencies {
+	compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+	testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
+}
 
 
 /***************************************************************************************
@@ -340,6 +357,10 @@ String generateLibraryDependencyMapping() {
 		}
 	}
 	return libsFile.absolutePath
+}
+
+repositories {
+    mavenCentral()
 }
 
 task allEclipse {
