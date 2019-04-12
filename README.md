@@ -1,19 +1,16 @@
-# Ghidra Software Reverse Engineering Framework
+# Drako - Unofficial Ghidra Kotlin Integration Attempt
 
-Ghidra is a software reverse engineering (SRE) framework created and maintained by the [National Security Agency][nsa] Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra plug-in components and/or scripts using Java or Python.
+`Drako` is an attempt to encourage people to integrate Kotlin language into the `Ghidra` project. And also, encourage for
+experimenting any features they want onto the `Ghidra` project.
 
-In support of NSA's Cybersecurity mission, Ghidra was built to solve scaling and teaming problems on complex SRE efforts, and to provide a customizable and extensible SRE research platform. NSA has applied Ghidra SRE capabilities to a variety of problems that involve analyzing malicious code and generating deep insights for SRE analysts who seek a better understanding of potential vulnerabilities in networks and systems.
+`Ghidra` is a very large project with seemly historical code, it will be good to just experiment anything we want without
+any worries.
 
-To start developing extensions and scripts, try out the GhidraDev plugin for Eclipse, which is part of the distribution package.  The full release build can be downloaded from our [project homepage][project].
+# Current Status
 
-This repository contains the source for the core framework, features, and extensions.
-If you would like to contribute, please take a look at our [contributor guide][contrib] to see how you can participate in this open source project.
+Very early attempts.
 
-If you are interested in projects like this and would like to develop this, and
-other cybersecurity tools, for NSA to help protect our nation and its allies,
-consider applying for a [career with us][career].
+I converted the `JavaScriptProvider.java` into Kotlin using `IntelliJ Idea`, currently compiling well.
 
-[nsa]: https://www.nsa.gov
-[contrib]: CONTRIBUTING.md
-[career]: https://www.intelligencecareers.gov/nsa
-[project]: https://www.ghidra-sre.org/
+The rule of thumb is to refactor the code that is needed into Kotlin, but not all of them. The attempt is to leave the
+original files as it were (except the one that is already converted), but use Kotlin on new files.
