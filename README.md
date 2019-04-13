@@ -14,3 +14,7 @@ I converted the `JavaScriptProvider.java` into Kotlin using `IntelliJ Idea`, cur
 
 The rule of thumb is to refactor the code that is needed into Kotlin, but not all of them. The attempt is to leave the
 original files as it were (except the one that is already converted), but use Kotlin on new files.
+
+## Progress
+
+- [x] kotlin script support (.kts)

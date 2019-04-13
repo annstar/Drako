@@ -317,10 +317,10 @@ model {
 		                include "cpool_ghidra.cc"
 		                include "ghidra_process.cc"
 		                include "comment_ghidra.cc"
-		         //       include "callgraph.cc"			// uncomment for debug
-		         //       include "ifacedecomp.cc"		// uncomment for debug
-		         //       include "ifaceterm.cc"			// uncomment for debug
-		         //       include "interface.cc"			// uncomment for debug
+		                include "callgraph.cc"			// uncomment for debug
+		                include "ifacedecomp.cc"		// uncomment for debug
+		                include "ifaceterm.cc"			// uncomment for debug
+		                include "interface.cc"			// uncomment for debug
 		            }
 					exportedHeaders {
 						srcDir "src/decompile/cpp"
@@ -396,8 +396,8 @@ model {
 		all{ b ->
 			if (b.toolChain in Gcc) {
 				b.cppCompiler.args "-Wall"
-				b.cppCompiler.args "-O2"			// for DEBUG, comment this line out
-				// b.cppCompiler.args "-g"			// for DEBUG, uncomment	this line
+				//b.cppCompiler.args "-O2"			// for DEBUG, comment this line out
+				 b.cppCompiler.args "-g"			// for DEBUG, uncomment	this line
 				b.cppCompiler.args "-Wno-sign-compare"
 				if (b.targetPlatform.operatingSystem.linux) {
 //					b.linker.args "-static"
@@ -409,8 +409,8 @@ model {
 				b.cppCompiler.args "/EHsc"
 				b.cppCompiler.define "_SECURE_SCL=0"
 				b.cppCompiler.define "_HAS_ITERATOR_DEBUGGING=0"
-				// b.cppCompiler.args "/Zi"		// for DEBUG, uncomment this line
-				// b.linker.args "/DEBUG"          // for DEBUG, uncomment this line
+				 b.cppCompiler.args "/Zi"		// for DEBUG, uncomment this line
+				 b.linker.args "/DEBUG"          // for DEBUG, uncomment this line
 				if (b.targetPlatform.operatingSystem.windows) {
 					b.cppCompiler.define "WINDOWS"
 					b.cppCompiler.define "_WINDOWS"
@@ -424,8 +424,8 @@ model {
 			}
 			else if (b.toolChain in Clang) {
 				b.cppCompiler.args "-Wall"
-				b.cppCompiler.args "-O2"			// for DEBUG, comment this line out
-				// b.cppCompiler.args "-g"			// for DEBUG, uncomment	this line
+				//b.cppCompiler.args "-O2"			// for DEBUG, comment this line out
+				 b.cppCompiler.args "-g"			// for DEBUG, uncomment	this line
 				b.cppCompiler.args "-Wno-sign-compare"
 				b.cppCompiler.args "-w"
 				if (b.targetPlatform.operatingSystem.linux) {
