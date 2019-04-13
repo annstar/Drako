@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: :hfsx_dmglib:">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/flatRepo/hfsx_dmglib.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
