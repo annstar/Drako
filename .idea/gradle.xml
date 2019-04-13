@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/5.2.1/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/GPL/CabExtract" />
+            <option value="$PROJECT_DIR$/GPL/DMG" />
+            <option value="$PROJECT_DIR$/GPL/DemanglerGnu" />
+            <option value="$PROJECT_DIR$/Ghidra/Configurations/Public_Release" />
+            <option value="$PROJECT_DIR$/Ghidra/Extensions/SampleTablePlugin" />
+            <option value="$PROJECT_DIR$/Ghidra/Extensions/sample" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/Base" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/BytePatterns" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/ByteViewer" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/DebugUtils" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/Decompiler" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/Decompiler/src/decompile" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/DecompilerDependent" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/FileFormats" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/FunctionGraph" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/FunctionGraphDecompilerExtension" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/FunctionID" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/GhidraServer" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/GnuDemangler" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/GraphFunctionCalls" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/MicrosoftCodeAnalyzer" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/MicrosoftDemangler" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/MicrosoftDmang" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/PDB" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/ProgramDiff" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/Python" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/Recognizers" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/SourceCodeLookup" />
+            <option value="$PROJECT_DIR$/Ghidra/Features/VersionTracking" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/DB" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/Demangler" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/Docking" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/FileSystem" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/Generic" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/Graph" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/Help" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/Project" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/SoftwareModeling" />
+            <option value="$PROJECT_DIR$/Ghidra/Framework/Utility" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/6502" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/68000" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/6805" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/8051" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/8085" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/AARCH64" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/ARM" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/Atmel" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/CR16" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/DATA" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/Dalvik" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/JVM" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/MIPS" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/PA-RISC" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/PIC" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/PowerPC" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/Sparc" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/TI_MSP430" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/Toy" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/Z80" />
+            <option value="$PROJECT_DIR$/Ghidra/Processors/x86" />
+            <option value="$PROJECT_DIR$/Ghidra/RuntimeScripts" />
+            <option value="$PROJECT_DIR$/Ghidra/Test/IntegrationTest" />
+            <option value="$PROJECT_DIR$/GhidraBuild" />
+            <option value="$PROJECT_DIR$/GhidraBuild/BuildFiles" />
+            <option value="$PROJECT_DIR$/GhidraBuild/BuildFiles/JsonDoclet" />
+            <option value="$PROJECT_DIR$/GhidraBuild/LaunchSupport" />
+            <option value="$PROJECT_DIR$/GhidraBuild/Skeleton" />
+            <option value="$PROJECT_DIR$/GhidraDocs" />
+            <option value="$PROJECT_DIR$/GhidraTest" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GhidraLauncher" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="ghidra.GhidraLauncher" />
+    <module name="Framework Utility" />
+    <option name="PROGRAM_PARAMETERS" value="ghidra.GhidraRun" />
+    <option name="VM_PARAMETERS" value="-Djava.system.class.loader=ghidra.GhidraClassLoader -Dfile.encoding=UTF8 -Duser.country=US -Duser.language=en -Duser.variant= -Dsun.java2d.pmoffscreen=false -Dsun.java2d.opengl=false -Dsun.java2d.xrender=false -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2 -Dghidra.cacerts= -Dcpu.core.limit= -Dcpu.core.override= -Dfont.size.override= -Dlog4j.skipJansi=true -Xdock:name=Ghidra -Xdock:icon=&quot;Ghidra/Features/Base/os/osx64/ghidra.icns&quot; -Declipse.filelock.disable=true -showversion" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

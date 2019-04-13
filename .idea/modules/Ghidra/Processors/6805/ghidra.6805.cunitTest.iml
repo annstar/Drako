@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":6805:cunitTest" external.linked.project.path="$MODULE_DIR$/../../../../../Ghidra/Processors/6805" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="ghidra" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/../../../../../Ghidra/Processors/6805/out/cunitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Ghidra/Processors/6805/src/cunitTest" />
+    <content url="file://$MODULE_DIR$/../../../../../Ghidra/Processors/6805/src/test.processors" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ghidra.6805.main" />
+  </component>
+</module>
