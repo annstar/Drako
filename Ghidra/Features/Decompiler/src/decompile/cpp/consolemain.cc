@@ -175,8 +175,13 @@ int main(int argc,char **argv)
   while((i<argc)&&(argv[i][0]=='-')) {
     if (argv[i][1]=='i')
       initscript = argv[++i];
-    else if (argv[i][1]=='s')
+    else if (argv[i][1]=='s') {
+      if (i + 1 >= argc) {
+        cerr << "Add extra path need a parameter" << endl;
+        return 1;
+      }
       extrapaths.push_back(argv[++i]);
+    }
     i += 1;
   }
 
