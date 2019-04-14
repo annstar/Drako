@@ -176,6 +176,7 @@ public class SymbolTreeProvider extends ComponentProviderAdapter {
 		DockingAction editExternalLocationAction = new EditExternalLocationAction(plugin);
 		DockingAction createClassAction = new CreateClassAction(plugin);
 		DockingAction createNamespaceAction = new CreateNamespaceAction(plugin);
+		DockingAction gotoAction = new GoToAction(plugin);
 
 		DockingAction renameAction = new RenameAction(plugin);
 		DockingAction cutAction = new CutAction(plugin, this);
@@ -204,6 +205,7 @@ public class SymbolTreeProvider extends ComponentProviderAdapter {
 		tool.addLocalAction(this, pasteAction);
 		tool.addLocalAction(this, deleteAction);
 		tool.addLocalAction(this, referencesAction);
+		tool.addLocalAction(this, gotoAction);
 		tool.addLocalAction(this, goToToggleAction);
 		tool.addLocalAction(this, selectionAction);
 		tool.addLocalAction(this, goToExternalAction);
