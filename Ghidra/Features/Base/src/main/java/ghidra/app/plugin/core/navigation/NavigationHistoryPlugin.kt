@@ -169,7 +169,7 @@ class NavigationHistoryPlugin
         saveState.putLong(NAV_ID, navigatable.instanceID)
         saveState.putInt(LOCATION_COUNT, historyList.size())
         saveState.putInt(CURRENT_LOCATION_INDEX, historyList.currentLocationIndex)
-        for (i in 0..historyList.size()) {
+        for (i in 0 until historyList.size()) {
             val location = historyList.getLocation(i)
             saveLocation(i, saveState, location)
         }
